@@ -1,7 +1,7 @@
 <script lang='ts' setup></script>
 
 <template>
-  <div>hello</div>
+  <div>hi</div>
 </template>
 
 <style scoped></style>

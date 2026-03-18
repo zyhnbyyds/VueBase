@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "target": "esnext",
     "jsx": "preserve",
     "lib": ["DOM", "ESNext"],
     "baseUrl": ".",
@@ -10,9 +10,7 @@
       "~/*": ["src/*"]
     },
     "resolveJsonModule": true,
-    "types": [
-      "vite/client"
-    ],
+    "types": ["vite/client"],
     "allowJs": true,
     "strict": true,
     "strictNullChecks": true,
@@ -21,5 +19,5 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "exclude": ["dist", "node_modules", "eslint.config.mjs"]
+  "exclude": ["dist", "node_modules"]
 }

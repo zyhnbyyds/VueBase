@@ -1,14 +1,7 @@
-import {
-  defineConfig,
-  presetAttributify,
-  presetIcons,
-  presetWebFonts,
-  presetWind4,
-} from 'unocss'
+import { defineConfig, presetAttributify, presetIcons, presetWebFonts, presetWind4 } from "unocss";
 
 export default defineConfig({
-  shortcuts: [
-  ],
+  shortcuts: [],
   presets: [
     presetWind4({
       preflights: {
@@ -22,4 +15,4 @@ export default defineConfig({
     }),
     presetWebFonts(),
   ],
-})
+});
